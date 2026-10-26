@@ -1,42 +1,50 @@
 # Motoryn
 
-**Stage:** Public website concept / visual prototype  
-**Venture category:** Automotive ownership and care coordination  
-**Parent studio:** Joseph Jilovec Venture Studio
+Independent vehicle-care planning. An early-stage venture from Joseph Jilovec Venture Studio.
 
-## Website design direction
+## Positioning
 
-Premium automotive editorial, charcoal and acid-lime accents, dramatic car-line artwork, large compressed-feeling typography.
+A clearer record. A practical service plan. Motoryn is an ownership-planning concept for drivers who want to organize maintenance, ask informed questions and coordinate care with independent professionals.
 
-## First-page architecture
+### Initial audience
 
-Full-screen automotive hero → three service pillars → future maintenance timeline and service finder.
+- **Everyday vehicle owners:** Drivers keeping a vehicle for the long term who want a clearer view of records, open questions and upcoming maintenance.
+- **Busy households:** Families coordinating more than one vehicle and trying to avoid scattered receipts and last-minute decisions.
+- **Independent service shops:** Qualified providers interested in receiving organized service history and a focused customer request.
 
-## Current implementation
+## Proposed first offer
 
-- `index.html` is a self-contained, responsive HTML/CSS landing page.
-- The page has working in-page navigation, descriptive copy, and simple custom CSS/SVG concept artwork.
-- Illustrative dashboard content and other design mockups are **not live services**.
-- No customer-data collection, payments, third-party tracking, or external API keys.
-- Motion is minimal and respects reduced-motion preferences.
-- These visuals are art-direction placeholders; final photography, high-resolution imagery, and polished assets will be developed during the dedicated design phase.
+**The Ownership Care Brief** — A proposed manual planning service for one vehicle, based on available records, the applicable manufacturer schedule and questions to verify with a service professional.
 
-## Run locally
+- **An organized service timeline:** Sort available invoices and dates. Mark missing records explicitly rather than assuming a service was completed.
+- **A maintenance discussion plan:** List schedule-based items, known concerns and unanswered questions for a qualified technician to review.
+- **A workshop-ready handoff:** Prepare a focused service request and comparison checklist for written estimates and completed work.
 
-Open `index.html` in a modern browser, or serve the folder using any static HTTP server.
+## Proposed validation milestones
 
-## Deploy to Vercel
+- **Understand the ownership gap:** Proposed discovery: interview 10 owners and 3 independent shops about records and service handoffs.
+- **Test a manual brief:** Trial 5 vehicle briefs with owner permission and professional feedback before building booking or vehicle integrations.
+- **Check the handoff:** Measure record completeness, clarity of the service request and owner understanding. No repair savings, reliability improvement or vetted network is claimed.
 
-Import this public repository into Vercel as a static site (Framework Preset: **Other**). No build command is required; the repository root contains `index.html`. Review the project settings and deployment preview before connecting a custom domain.
+These are planning targets, not achieved results. Availability, scope, partners and commercial terms have not been validated or established.
 
-## Next design iteration
+## Website
 
-Commission high-resolution automotive photography or licensed imagery, select initial service vertical, build service provider validation and inquiry workflows.
+- Buildless HTML/CSS/JavaScript; serve this repository root with any static server.
+- Responsive navigation, native FAQ disclosures, and a browser-local inquiry builder.
+- No submissions, analytics, tracking, payments, accounts, API integrations or persistent storage.
+- The inquiry builder creates an editable brief. Copy it or open an email draft; the visitor sends it themselves.
+- Keyboard navigation, form labels, focus outlines, skip link and reduced-motion support.
+- Hero raster asset is AI-generated concept imagery, optimized as WebP. It is not documentary evidence of a site, service or product. See `assets/IMAGE_NOTES.md`.
 
-## Confidential planning
+## Deployment
 
-Keep financial models, internal strategy, pricing experiments, private partners and proprietary implementation details in the private `josephjilovec/priv.venturefiles` repository, **not** in this public repo.
+Preserve the existing Vercel project and domains. Framework: Other; no build command; publish the repository root. Deployments depend on the repository's hosting integration.
 
-## Important
+## Validation
 
-The venture name is a working brand pending trademark/domain clearance. This page is a concept preview, not a claim that services, inventory, software integrations, or regulated offerings are operational.
+Check JavaScript syntax, internal anchors, asset existence and responsive layout. Run a browser preview to exercise mobile navigation, inquiry preparation, edits, copying and FAQ interactions. The website has no live service bookings.
+
+## Public scope
+
+Keep confidential financial models, pricing experiments and partner negotiations in private planning repositories. Working brand and pilot service remain subject to validation before commercial launch.
