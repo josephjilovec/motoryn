@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://motoryn-amber.vercel.app/sitemap.xml

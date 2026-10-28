@@ -1,0 +1,104 @@
+{
+  "notice": "Original AI-generated Motoryn concepts; not documentary images, a real facility, inspected vehicles or available inventory.",
+  "images": [
+    {
+      "id": "garage-car",
+      "transparent_background": true,
+      "prompt": "Use case: product-mockup. Asset type: original automotive website hero cutout for Motoryn, an independent vehicle ownership planning concept. Create one premium photorealistic CGI studio render of a contemporary, attainable, unbranded graphite silver sport wagon, front three-quarter view facing toward the left, with the entire car including both visible wheels and all extremities comfortably inside a wide landscape frame. Tasteful lowered visual stance but realistic road-car proportions, dark five-spoke wheels, subtle soft cobalt and chartreuse rim reflections, beautiful glass and metallic paint, no people. Position the single car isolated on a genuinely TRANSPARENT background, with no environment, no road, no solid backdrop and no baked checkerboard. Neutral soft studio light, sharply defined clean silhouette, realistic geometry. This cutout will float over a cobalt-blue and acid-yellow website interface built separately in code. No manufacturer badge, no letters, no numbers, no visible plate text, no text, no watermark. It is fictional concept imagery, not a specific manufacturer's model.",
+      "generation_method": "built-in image_gen",
+      "concept_only": true,
+      "original_sha256": "0ae4c3bb6d15c35a373b89007a15158c5819437767e269cb75d9a6a69c72171c",
+      "original_dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "has_alpha": true,
+      "variants": [
+        {
+          "path": "assets/garage-car-640.webp",
+          "width": 640,
+          "height": 320,
+          "bytes": 41772
+        },
+        {
+          "path": "assets/garage-car-960.webp",
+          "width": 960,
+          "height": 480,
+          "bytes": 78004
+        },
+        {
+          "path": "assets/garage-car-1600.webp",
+          "width": 1600,
+          "height": 800,
+          "bytes": 174020
+        }
+      ]
+    },
+    {
+      "id": "wheel-study",
+      "transparent_background": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: premium automotive editorial image for the Motoryn website. Tight cinematic macro crop of the rear quarter of an unbranded graphite silver contemporary sport wagon: a precisely rendered dark alloy wheel and tire, sculpted silver body panel, and a thin red taillight edge above, lit with cobalt-blue studio light and a warm pale acid-yellow highlight. Dramatic diagonal composition, beautifully tactile rubber and brushed metal, refined hard flash automotive magazine aesthetic, photorealistic, landscape 3:2. An imagined car and studio, no technician or servicing activity, no exposed mechanisms or instructional content. No readable tire lettering, badges, logos, registration numbers, brand names, captions or watermark. Crop deliberately as an abstract vehicle-detail photograph, with crisp natural geometry and rich shadows.",
+      "generation_method": "built-in image_gen",
+      "concept_only": true,
+      "original_sha256": "83ef4a1c00532b49e669abefbf5628ccb2591ca97301eb7e76d4d788225ed375",
+      "original_dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "has_alpha": false,
+      "variants": [
+        {
+          "path": "assets/wheel-study-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 41470
+        },
+        {
+          "path": "assets/wheel-study-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 84410
+        },
+        {
+          "path": "assets/wheel-study-1600.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 197716
+        }
+      ]
+    },
+    {
+      "id": "long-run",
+      "transparent_background": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: cinematic automotive editorial banner for Motoryn, a vehicle ownership record-planning concept. A single unbranded graphite silver sport wagon parked fully and safely in a broad scenic paved overlook beside a quiet winding desert highway, early blue-hour dusk, low mountains and open sky, beautiful long-horizon composition and subtle red tail lights. Rear three-quarter angle, car smaller in the composition in the right half, pale warm light at the horizon, deep cobalt atmosphere and tactile asphalt. Premium real-world automotive magazine photograph, attainable long-term ownership rather than a supercar race; no motion blur, no risky driving, no people, no traffic. Wide landscape cinematic frame with generous negative space. The place and car are fictional. No manufacturer logos, no readable plate, no text, no watermark.",
+      "generation_method": "built-in image_gen",
+      "concept_only": true,
+      "original_sha256": "c6b31bab770b6e43e0b1cc5d5a95ab681a68f46ff38839487f0f26ea0b8bfff2",
+      "original_dimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "has_alpha": false,
+      "variants": [
+        {
+          "path": "assets/long-run-640.webp",
+          "width": 640,
+          "height": 320,
+          "bytes": 29392
+        },
+        {
+          "path": "assets/long-run-960.webp",
+          "width": 960,
+          "height": 480,
+          "bytes": 66472
+        },
+        {
+          "path": "assets/long-run-1600.webp",
+          "width": 1600,
+          "height": 800,
+          "bytes": 160448
+        }
+      ]
+    }
+  ]
+}

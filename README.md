@@ -2,20 +2,31 @@
 
 Public website: https://motoryn-amber.vercel.app/
 
-## Website
+## Experience
 
-Fictional service history separating documented work, owner recollection and unknowns; workshop handoff and record-coverage inquiry.
+A complete automotive editorial site for the existing vehicle-care planning concept. The garage homepage uses original layered vehicle artwork, oversized variable typography, a moving type strip, subtle pointer response and scroll reveals. Linked pages cover the ownership record, workshop brief, brand context, local note builder and privacy.
 
-Static HTML, CSS and JavaScript. Serve the repository root. Preserve the current Vercel project, domains and buildless deployment settings. No dependency installation or framework build is required.
+Serve this repository root through the existing Vercel project. Static HTML, CSS and JavaScript; no framework, server, package installation, WebGL or build step is required. Keep existing hosting and domain settings.
 
-## Public functionality
+## Routes and interactions
 
-The demonstrations run locally in the visitor's browser and use explicitly labeled fictional data or concept imagery. The inquiry creates an editable draft that can be copied or opened in the visitor's email app. The visitor reviews and sends it; the website does not transmit or store form data. There are no accounts, payments, bookings, telemetry integrations, analytics or live operating records. The proposed service remains in development.
+- `/`: the garage, original vehicle imagery and links into the service concept.
+- `/the-record/`: three fictional evidence categories and a native detail overlay.
+- `/the-brief/`: owner/workshop perspectives and an expandable sample brief.
+- `/about/`: brand explanation and native FAQ disclosures.
+- `/start/`: a three-step, browser-local ownership-note builder, editable output, copy, local text download and optional email-app handoff.
+- `/privacy/`: exact boundaries of local drafts and display preferences.
 
-## Accessibility and assets
+The menu is a full-screen native dialog. Dialogs support Escape and focus return. The motion control pauses decorative animation; system reduced-motion preferences are respected. Color scenes and motion preferences use session storage only. Form fields and notes are not stored there. Essential content and standard links remain available without JavaScript; the note builder provides a direct-email alternative.
 
-Semantic landmarks, visible focus, labeled inputs, mobile navigation, reduced-motion support and a no-JavaScript email alternative. Supporting images are lazy-loaded. Raster imagery has responsive WebP versions. See `assets/IMAGE_NOTES.md` for provenance. Diagrams and interface artifacts are native SVG/HTML, with accompanying text.
+## Business and information boundaries
 
-## Checks
+Motoryn remains a concept in development. No inspection, diagnosis, maintenance interval, verified shop network, vehicle-account integration, appointment or payment service is implied. Records and dates are explicitly fictional. The website does not automatically submit, upload or store entered form data. Visitors review and decide whether to copy, download or open their own email app. No analytics or advertising scripts are added. Existing contact email is retained.
 
-Check JavaScript syntax, local asset paths and anchors. Verify desktop and narrow layouts, keyboard controls, the demonstration state changes, mobile navigation, and inquiry creation/editing. An email draft is not an email delivery test.
+## Assets
+
+See [image provenance](assets/IMAGE_NOTES.md), [new image prompts and variants](assets/motion-images.json), and [font attribution](assets/fonts/README.md). The three new images are original AI concepts. No third-party reference-site code, characters, artwork, assets or proprietary font is copied. The original workshop image is preserved. Raster images have responsive sources and supporting images load lazily; the hero car uses a transparent WebP.
+
+## Verification
+
+Check all six routes, mobile overflow, full-screen menu and Escape/focus return, scene/motion preferences, record and brief interactions, local-note creation/edit/download/email URL encoding, reduced motion and no-JavaScript fallback. Do not send an email, submit real records, or book a service during QA. Preview-only configuration and harness files are excluded from publication.
